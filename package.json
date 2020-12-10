@@ -1,6 +1,6 @@
 {
   "name": "@insomnia-dev/dom-to-image",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "Generates an image from a DOM node using HTML5 canvas and SVG",
   "main": "src/dom-to-image.js",
   "unpkg": "dist/dom-to-image.js",
