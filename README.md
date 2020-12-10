@@ -25,21 +25,6 @@ import domtoimage from 'dom-to-image';
 var domtoimage = require('dom-to-image');
 ```
 
-### Bower
-
-`bower install dom-to-image`
-
-Include either `src/dom-to-image.js` or `dist/dom-to-image.min.js` in your page
-and it will make the `domtoimage` variable available in the global scope.
-
-```html
-<script src="path/to/dom-to-image.min.js" />
-<script>
-  domtoimage.toPng(node)
-  //...
-</script>
-```
-
 ## Usage
 
 All the top level functions accept DOM node and rendering options,

@@ -1,10 +1,11 @@
 {
-    "name": "dom-to-image",
+    "name": "@insomnia-dev/dom-to-image",
     "version": "2.6.0",
     "description": "Generates an image from a DOM node using HTML5 canvas and SVG",
     "main": "src/dom-to-image.js",
     "dependencies": {},
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
         "chai": "^2.2.0",
         "grunt": "~0.4.5",
         "grunt-cli": "^1.2.0",
@@ -12,13 +13,17 @@
         "grunt-contrib-uglify": "^0.9.1",
         "grunt-contrib-watch": "^0.6.1",
         "grunt-karma": "^1.0.0",
+        "imagediff": "^1.0.8",
+        "jquery": "^2.1.3",
         "karma": "^0.13.22",
         "karma-chai": "^0.1.0",
         "karma-chrome-launcher": "^0.1.8",
         "karma-firefox-launcher": "^0.1.4",
         "karma-mocha": "^0.1.10",
         "karma-mocha-reporter": "^1.3.0",
-        "mocha": "^2.2.4"
+        "mocha": "^2.2.4",
+        "ocrad.js": "0.0.1",
+        "tesseract.js": "^1.0.10"
     },
     "scripts": {
         "test": "./node_modules/.bin/grunt test"
@@ -39,7 +44,7 @@
     "author": "Anatolii Saienko <anatoly.sayenko@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tsayen/dom-to-image/issues"
+        "url": "https://github.com/insomnia-dev/dom-to-image/issues"
     },
-    "homepage": "https://github.com/tsayen/dom-to-image#readme"
+    "homepage": "https://github.com/insomnia-dev/dom-to-image"
 }
