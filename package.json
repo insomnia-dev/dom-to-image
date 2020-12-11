@@ -38,10 +38,11 @@
     "webpack-cli": "^4.2.0"
   },
   "scripts": {
-    "start": "webpack --mode development",
+    "start": "webpack --watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "test": "./node_modules/.bin/grunt test",
-    "prepublish": "npm run build",
-    "build": "webpack --mode production"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
