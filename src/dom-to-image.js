@@ -758,4 +758,6 @@ function newImages() {
     }
 }
 
+export { toSvg, toPng, toJpeg, toBlob, toPixelData };
+
 export default domtoimage;
